@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD config 3.0//EN" 
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+ 
+<configuration>
+    <!-- 为JavaBean起类别名 -->
+    <typeAliases>
+        <package name="edu.gdut.imis.ssmtest.model"/>
+    </typeAliases>
+    
+    <!-- 通过mapper接口包加载整个包的映射文件 -->
+    <mappers>
+        <package name="edu/gdut/imis/ssmtest/mapper"/>
+    </mappers>
+</configuration>
